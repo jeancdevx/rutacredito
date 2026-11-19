@@ -1,0 +1,156 @@
+.rc-dialog-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  background: #271e3261;
+  backdrop-filter: blur(5px);
+  transition: opacity 250ms var(--ease);
+}
+.rc-dialog-backdrop[data-starting-style],
+.rc-dialog-backdrop[data-ending-style] {
+  opacity: 0;
+}
+.dialog.rc-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 90;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  width: min(640px, calc(100% - 32px));
+  max-height: calc(100dvh - 40px);
+  border: 1px solid #dfd0c4;
+  border-radius: 20px;
+  padding: 32px;
+  background: #fbf8f2;
+  color: var(--plum);
+  box-shadow:
+    0 32px 100px #1c122633,
+    0 4px 16px #1c122612;
+  animation: none;
+  transition:
+    opacity 250ms var(--ease),
+    scale 250ms var(--ease),
+    translate 250ms var(--ease);
+  outline: none;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.dialog.rc-dialog[data-starting-style],
+.dialog.rc-dialog[data-ending-style] {
+  opacity: 0;
+  scale: 0.97;
+  translate: 0 8px;
+}
+.dialog.rc-dialog.dialog-wide {
+  width: min(800px, calc(100% - 32px));
+}
+.dialog.rc-dialog.course-detail-dialog {
+  left: auto;
+  right: 12px;
+  top: 12px;
+  transform: none;
+  width: min(520px, calc(100% - 24px));
+  height: calc(100dvh - 24px);
+  max-height: calc(100dvh - 24px);
+  padding: 32px;
+}
+.dialog.rc-dialog.course-detail-dialog[data-starting-style],
+.dialog.rc-dialog.course-detail-dialog[data-ending-style] {
+  scale: 1;
+  translate: 8% 0;
+}
+.dialog.rc-dialog.navigation-dialog {
+  left: 0;
+  right: auto;
+  top: 0;
+  transform: none;
+  width: min(340px, calc(100% - 32px));
+  height: 100dvh;
+  max-height: 100dvh;
+  border-radius: 0 20px 20px 0;
+  padding: 28px 24px;
+}
+.dialog.rc-dialog.navigation-dialog[data-starting-style],
+.dialog.rc-dialog.navigation-dialog[data-ending-style] {
+  scale: 1;
+  translate: -8% 0;
+}
+.rc-dialog > .dialog-heading h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.1;
+}
+.rc-dialog .dialog-heading > .icon-button {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  min-height: 36px;
+  background: #f0e8dd;
+  color: var(--muted);
+  margin: -4px -8px 0 0;
+}
+.rc-dialog .dialog-heading > .icon-button:hover {
+  background: #e6d8cb !important;
+}
+.rc-dialog .ui-select-positioner {
+  z-index: 110;
+}
+.rc-dialog .dialog-sticky-actions {
+  bottom: -32px;
+}
+.rc-dialog-backdrop[data-nested-dialog-open] {
+  background: #271e3229;
+  backdrop-filter: none;
+}
+@media (max-width: 700px) {
+  .dialog.rc-dialog {
+    padding: 24px 20px;
+    border-radius: 16px;
+    width: calc(100% - 24px);
+    max-height: calc(100dvh - 24px);
+  }
+  .dialog.rc-dialog.course-detail-dialog {
+    padding: 24px 20px;
+    right: 12px;
+    top: 12px;
+  }
+  .rc-dialog > .dialog-heading h2 {
+    font-size: 28px;
+  }
+  .rc-dialog .dialog-sticky-actions {
+    bottom: -24px;
+  }
+  .dialog.rc-dialog.navigation-dialog {
+    padding: 28px 24px;
+    max-height: 100dvh;
+  }
+  .dialog.rc-dialog [class='checkbox-row'] {
+    font-size: 12px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dialog.rc-dialog,
+  .rc-dialog-backdrop {
+    transition: opacity 150ms var(--ease) !important;
+  }
+  .dialog.rc-dialog[data-starting-style],
+  .dialog.rc-dialog[data-ending-style] {
+    scale: 1 !important;
+    translate: 0 0 !important;
+  }
+}
+
+.dialog.rc-dialog:is(.course-detail-dialog, .navigation-dialog) {
+  transition:
+    opacity 250ms var(--ease),
+    translate 300ms var(--ease-drawer);
+}
+.dialog.rc-dialog[data-ending-style] {
+  transition-duration: 160ms;
+}
+.rc-dialog-backdrop[data-ending-style] {
+  transition-duration: 160ms;
+}
