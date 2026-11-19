@@ -1,0 +1,66 @@
+row,cycle,code,credits,group,name,prerequisite,origin
+1,1,ICSI-506,4,,Algoritmia y programación,NONE,ICSI-506
+2,1,HUMA-900,2,,Metodología del aprendizaje universitario,NONE,HUMA-900
+3,1,HUMA-1179,4,,Comunicación I,NONE,HUMA-899
+4,1,ISIA-100,2,,Introducción a la Ingeniería de Sistemas e Inteligencia Artificial,NONE,ICSI-507
+5,1,CIEN-752,4,,Álgebra matricial y geometría analítica,NONE,CIEN-597
+6,1,CIEN-753,4,,Cálculo I,NONE,CIEN-397
+7,2,ICSI-509,4,,Programación orientada a objetos,ICSI-506,ICSI-509
+8,2,HUMA-1181,3,,Filosofía y pensamiento crítico,BLANK,
+9,2,HUMA-1180,2,,Comunicación II,HUMA-1179,HUMA-901
+10,2,ADMI-779,4,,Organización y gestión de empresas,BLANK,ICSI-538
+11,2,CIEN-768,4,,Física I,BLANK,CIEN-539
+12,2,CIEN-754,4,,Cálculo II,CIEN-753,CIEN-599
+13,3,ISIA-101,4,,Estadística para ingenieros,CIEN-753,CIEN-651
+14,3,ICSI-671,4,,Estructura de datos y algoritmos,ICSI-509,ICSI-537
+15,3,HUMA-1182,2,,Realidad nacional y global,BLANK,HUMA-1024
+16,3,ICSI-672,4,,Gestión de procesos de negocios,ADMI-779,ICSI-516
+17,3,CIEN-769,4,,Física II,CIEN-768,CIEN-648
+18,3,CIEN-755,4,,Cálculo III,CIEN-754,CIEN-649
+19,4,ISIA-102,4,,Redes y sistemas operativos,BLANK,ICSI-524
+20,4,HUMA-1184,3,,"Ética, ciudadanía e inclusión social",BLANK,HUMA-1038
+21,4,ICSI-673,4,,Base de datos,ICSI-671,ICSI-515
+22,4,ICSI-674,3,,Ingeniería de requisitos,ICSI-672,ICSI-513
+23,4,ISIA-103,4,,Sistemas empresariales,ICSI-672,ICSI-522
+24,4,HUMA-1183,2,,Vigencia y trascendencia del pensamiento de Antenor Orrego,BLANK,HUMA-1027
+25,5,ISIA-104,3,,Cómputo distribuido y paralelo,ISIA-102,ICSI-514
+26,5,CIEN-746,3,,Medio ambiente y desarrollo sostenible,BLANK,CIEN-662
+27,5,ICSI-521,4,,Sistemas de gestión de base de datos,ICSI-673,ICSI-521
+28,5,ISIA-105,4,,Ingeniería del software,ICSI-674+ICSI-673+ISIA-103,ICSI-518
+29,5,ICSI-675,4,,Patrones de diseño de software,ICSI-671,ICSI-510
+30,5,ISIA-106,3,,Aprendizaje estadístico,CONFLICT,CIEN-655
+31,6,ISIA-107,4,,Infraestructura como código,ISIA-102,ICSI-530
+32,6,ISIA-108,4,,"Inteligencia artificial, principios y técnicas",ISIA-106,
+33,6,HUMA-1185,3,,Metodología de la investigación científica,ISIA-101,HUMA-1043
+34,6,ISIA-109,4,,Agile development,ISIA-105,ICSI-523
+35,6,CIEN-747,2,,"Taller de creatividad, innovación y emprendimiento",ISIA-105,ICSI-544
+36,6,ICSI-676,4,,Métodos cuantitativos para los negocios,ISIA-106,ICSI-539
+37,7,ICSI-677,4,,Internet de las cosas,ISIA-107+ISIA-109,ICSI-542
+38,7,ISIA-110,4,,Machine learning,ISIA-108+ICSI-676,ICSI-551
+39,7,ISIA-111,3,,Percepción computacional,ICSI-521,ICSI-527
+40,7,ISIA-112,4,,Arquitectura de sistemas,ISIA-109,
+41,7,ISIA-113,3,,Customer development,CIEN-747,ICSI-541
+42,7,ISIA-114,3,,Automatización inteligente de procesos,ICSI-672+ISIA-108,ICSI-557
+43,8,ICSI-546,2,,Deontología profesional,BLANK,ICSI-546
+44,8,ISIA-115,4,,Deep learning,ISIA-110,
+45,8,ISIA-116,4,,Big data y analítica de datos,ISIA-111+ICSI-676,ICSI-532
+46,8,ICSI-678,4,,Gestión de proyectos de sistemas de información,ISIA-112,ICSI-531
+47,8,ISIA-117,3,,Proyecto de investigación,HUMA-1185,ICSI-543
+48,8,ISIA-118,3,,Gobierno de datos,ICSI-521,ICSI-526
+49,9,ISIA-119,4,,Modelos generativos de IA,ISIA-115,
+50,9,ISIA-120,4,,Procesamiento de lenguaje natural,ISIA-115,
+51,9,ISIA-121,4,,UX / UI,ICSI-678,ICSI-517
+52,9,ICSI-679,4,,Sistemas de información integrados,ICSI-678,ICSI-540
+53,9,ISIA-122,2,,Tesis I,ISIA-117,ICSI-552
+54,9,ISIA-123,4,,Taller integrador I,OCTAVO,ICSI-560
+55,10,ISIA-124,3,,Prácticas preprofesionales,OCTAVO,ICSI-558
+56,10,ISIA-125,2,,Tesis II,ISIA-122,ICSI-559
+57,10,ISIA-134,1,,Trabajo de investigación,ROWS1TO54,
+58,10,ISIA-126,3,,Taller integrador II,ISIA-123,
+59,10,ISIA-127,4,electivo-1,Aplicaciones móviles para negocios,BLANK,ICSI-550
+59,10,ISIA-128,4,electivo-1,Auditoría de sistemas de información,BLANK,ICSI-547
+59,10,ISIA-129,4,electivo-1,Auditoría de sistemas inteligentes,BLANK,ICSI-554
+60,10,ISIA-130,4,electivo-2,Negocios centrados en la IA,BLANK,ICSI-548
+60,10,ISIA-131,4,electivo-2,Blockchain aplicado a sistemas empresariales,BLANK,ICSI-556
+60,10,ISIA-132,4,electivo-2,Transformación digital,BLANK,ICSI-553
+60,10,ISIA-133,4,electivo-2,Ciberseguridad,BLANK,ICSI-555

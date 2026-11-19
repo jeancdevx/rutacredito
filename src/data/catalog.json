@@ -1,0 +1,6023 @@
+{
+  "schemaVersion": 1,
+  "version": "2026-11-17.1",
+  "reviewedAt": "2026-11-17",
+  "plans": [
+    {
+      "id": "isia-2025",
+      "program": "Ingeniería de Sistemas e Inteligencia Artificial",
+      "version": "Codificación 2025 · PDF",
+      "effectiveFrom": "202510",
+      "coverage": "catalog-complete-rules-partial",
+      "totalCredits": 205,
+      "graduationVerified": false,
+      "sources": [
+        "coding"
+      ],
+      "groups": [
+        {
+          "id": "electivo-1",
+          "name": "Electivo I",
+          "slots": 1,
+          "creditsPerSlot": 4,
+          "evidence": [
+            {
+              "sourceId": "coding",
+              "location": "p. 2, celda fusionada 59"
+            }
+          ]
+        },
+        {
+          "id": "electivo-2",
+          "name": "Electivo II",
+          "slots": 1,
+          "creditsPerSlot": 4,
+          "evidence": [
+            {
+              "sourceId": "coding",
+              "location": "p. 2–3, celda fusionada 60"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": "isia2025:ICSI-506",
+      "planId": "isia-2025",
+      "code": "ICSI-506",
+      "originalCode": "ICSI 506",
+      "name": "Algoritmia y programación",
+      "cycle": 1,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 1,
+      "prerequisite": {
+        "kind": "none",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 1, ICSI-506"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 1, ICSI-506"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 1, ICSI-506"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 1, ICSI-506"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 1, ICSI-506"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 1, ICSI-506"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:HUMA-900",
+      "planId": "isia-2025",
+      "code": "HUMA-900",
+      "originalCode": "HUMA 900",
+      "name": "Metodología del aprendizaje universitario",
+      "cycle": 1,
+      "credits": 2,
+      "required": true,
+      "electiveGroup": null,
+      "row": 2,
+      "prerequisite": {
+        "kind": "none",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 2, HUMA-900"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 2, HUMA-900"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 2, HUMA-900"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 2, HUMA-900"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 2, HUMA-900"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 2, HUMA-900"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:HUMA-1179",
+      "planId": "isia-2025",
+      "code": "HUMA-1179",
+      "originalCode": "HUMA 1179",
+      "name": "Comunicación I",
+      "cycle": 1,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 3,
+      "prerequisite": {
+        "kind": "none",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 3, HUMA-1179"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 3, HUMA-1179"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 3, HUMA-1179"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 3, HUMA-1179"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 3, HUMA-1179"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 3, HUMA-1179"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-100",
+      "planId": "isia-2025",
+      "code": "ISIA-100",
+      "originalCode": "ISIA 100",
+      "name": "Introducción a la Ingeniería de Sistemas e Inteligencia Artificial",
+      "cycle": 1,
+      "credits": 2,
+      "required": true,
+      "electiveGroup": null,
+      "row": 4,
+      "prerequisite": {
+        "kind": "none",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 4, ISIA-100"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 4, ISIA-100"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 4, ISIA-100"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 4, ISIA-100"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 4, ISIA-100"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 4, ISIA-100"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:CIEN-752",
+      "planId": "isia-2025",
+      "code": "CIEN-752",
+      "originalCode": "CIEN 752",
+      "name": "Álgebra matricial y geometría analítica",
+      "cycle": 1,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 5,
+      "prerequisite": {
+        "kind": "none",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 5, CIEN-752"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 5, CIEN-752"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 5, CIEN-752"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 5, CIEN-752"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 5, CIEN-752"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 5, CIEN-752"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:CIEN-753",
+      "planId": "isia-2025",
+      "code": "CIEN-753",
+      "originalCode": "CIEN 753",
+      "name": "Cálculo I",
+      "cycle": 1,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 6,
+      "prerequisite": {
+        "kind": "none",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 6, CIEN-753"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 6, CIEN-753"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 6, CIEN-753"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 6, CIEN-753"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 6, CIEN-753"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 6, CIEN-753"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ICSI-509",
+      "planId": "isia-2025",
+      "code": "ICSI-509",
+      "originalCode": "ICSI 509",
+      "name": "Programación orientada a objetos",
+      "cycle": 2,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 7,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ICSI-506",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 7, ICSI-509"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 7, ICSI-509"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 7, ICSI-509"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 7, ICSI-509"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 7, ICSI-509"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 7, ICSI-509"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:HUMA-1181",
+      "planId": "isia-2025",
+      "code": "HUMA-1181",
+      "originalCode": "HUMA 1181",
+      "name": "Filosofía y pensamiento crítico",
+      "cycle": 2,
+      "credits": 3,
+      "required": true,
+      "electiveGroup": null,
+      "row": 8,
+      "prerequisite": {
+        "kind": "unknown",
+        "reason": "La casilla está vacía; no documenta ausencia de prerrequisitos (AC-10).",
+        "references": [],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 8, HUMA-1181"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 8, HUMA-1181"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 8, HUMA-1181"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 8, HUMA-1181"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 8, HUMA-1181"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 8, HUMA-1181"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:HUMA-1180",
+      "planId": "isia-2025",
+      "code": "HUMA-1180",
+      "originalCode": "HUMA 1180",
+      "name": "Comunicación II",
+      "cycle": 2,
+      "credits": 2,
+      "required": true,
+      "electiveGroup": null,
+      "row": 9,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "HUMA-1179",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 9, HUMA-1180"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 9, HUMA-1180"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 9, HUMA-1180"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 9, HUMA-1180"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 9, HUMA-1180"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 9, HUMA-1180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ADMI-779",
+      "planId": "isia-2025",
+      "code": "ADMI-779",
+      "originalCode": "ADMI 779",
+      "name": "Organización y gestión de empresas",
+      "cycle": 2,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 10,
+      "prerequisite": {
+        "kind": "unknown",
+        "reason": "La casilla está vacía; no documenta ausencia de prerrequisitos (AC-10).",
+        "references": [],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 10, ADMI-779"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 10, ADMI-779"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 10, ADMI-779"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 10, ADMI-779"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 10, ADMI-779"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 10, ADMI-779"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:CIEN-768",
+      "planId": "isia-2025",
+      "code": "CIEN-768",
+      "originalCode": "CIEN 768",
+      "name": "Física I",
+      "cycle": 2,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 11,
+      "prerequisite": {
+        "kind": "unknown",
+        "reason": "La casilla está vacía; no documenta ausencia de prerrequisitos (AC-10).",
+        "references": [],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 11, CIEN-768"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 11, CIEN-768"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 11, CIEN-768"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 11, CIEN-768"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 11, CIEN-768"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 11, CIEN-768"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:CIEN-754",
+      "planId": "isia-2025",
+      "code": "CIEN-754",
+      "originalCode": "CIEN 754",
+      "name": "Cálculo II",
+      "cycle": 2,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 12,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "CIEN-753",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 12, CIEN-754"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 12, CIEN-754"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 12, CIEN-754"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 12, CIEN-754"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 12, CIEN-754"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 12, CIEN-754"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-101",
+      "planId": "isia-2025",
+      "code": "ISIA-101",
+      "originalCode": "ISIA 101",
+      "name": "Estadística para ingenieros",
+      "cycle": 3,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 13,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "CIEN-753",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 13, ISIA-101"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 13, ISIA-101"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 13, ISIA-101"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 13, ISIA-101"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 13, ISIA-101"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 13, ISIA-101"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ICSI-671",
+      "planId": "isia-2025",
+      "code": "ICSI-671",
+      "originalCode": "ICSI 671",
+      "name": "Estructura de datos y algoritmos",
+      "cycle": 3,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 14,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ICSI-509",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 14, ICSI-671"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 14, ICSI-671"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 14, ICSI-671"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 14, ICSI-671"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 14, ICSI-671"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 14, ICSI-671"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:HUMA-1182",
+      "planId": "isia-2025",
+      "code": "HUMA-1182",
+      "originalCode": "HUMA 1182",
+      "name": "Realidad nacional y global",
+      "cycle": 3,
+      "credits": 2,
+      "required": true,
+      "electiveGroup": null,
+      "row": 15,
+      "prerequisite": {
+        "kind": "unknown",
+        "reason": "La casilla está vacía; no documenta ausencia de prerrequisitos (AC-10).",
+        "references": [],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 15, HUMA-1182"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 15, HUMA-1182"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 15, HUMA-1182"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 15, HUMA-1182"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 15, HUMA-1182"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 15, HUMA-1182"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ICSI-672",
+      "planId": "isia-2025",
+      "code": "ICSI-672",
+      "originalCode": "ICSI 672",
+      "name": "Gestión de procesos de negocios",
+      "cycle": 3,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 16,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ADMI-779",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 16, ICSI-672"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 16, ICSI-672"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 16, ICSI-672"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 16, ICSI-672"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 16, ICSI-672"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 16, ICSI-672"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:CIEN-769",
+      "planId": "isia-2025",
+      "code": "CIEN-769",
+      "originalCode": "CIEN 769",
+      "name": "Física II",
+      "cycle": 3,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 17,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "CIEN-768",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 17, CIEN-769"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 17, CIEN-769"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 17, CIEN-769"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 17, CIEN-769"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 17, CIEN-769"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 17, CIEN-769"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:CIEN-755",
+      "planId": "isia-2025",
+      "code": "CIEN-755",
+      "originalCode": "CIEN 755",
+      "name": "Cálculo III",
+      "cycle": 3,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 18,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "CIEN-754",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 18, CIEN-755"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 18, CIEN-755"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 18, CIEN-755"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 18, CIEN-755"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 18, CIEN-755"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 18, CIEN-755"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-102",
+      "planId": "isia-2025",
+      "code": "ISIA-102",
+      "originalCode": "ISIA 102",
+      "name": "Redes y sistemas operativos",
+      "cycle": 4,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 19,
+      "prerequisite": {
+        "kind": "unknown",
+        "reason": "La casilla está vacía; no documenta ausencia de prerrequisitos (AC-10).",
+        "references": [],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 19, ISIA-102"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 19, ISIA-102"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 19, ISIA-102"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 19, ISIA-102"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 19, ISIA-102"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 19, ISIA-102"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:HUMA-1184",
+      "planId": "isia-2025",
+      "code": "HUMA-1184",
+      "originalCode": "HUMA 1184",
+      "name": "Ética, ciudadanía e inclusión social",
+      "cycle": 4,
+      "credits": 3,
+      "required": true,
+      "electiveGroup": null,
+      "row": 20,
+      "prerequisite": {
+        "kind": "unknown",
+        "reason": "La casilla está vacía; no documenta ausencia de prerrequisitos (AC-10).",
+        "references": [],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 20, HUMA-1184"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 20, HUMA-1184"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 20, HUMA-1184"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 20, HUMA-1184"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 20, HUMA-1184"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 20, HUMA-1184"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ICSI-673",
+      "planId": "isia-2025",
+      "code": "ICSI-673",
+      "originalCode": "ICSI 673",
+      "name": "Base de datos",
+      "cycle": 4,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 21,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ICSI-671",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 21, ICSI-673"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 21, ICSI-673"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 21, ICSI-673"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 21, ICSI-673"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 21, ICSI-673"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 21, ICSI-673"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ICSI-674",
+      "planId": "isia-2025",
+      "code": "ICSI-674",
+      "originalCode": "ICSI 674",
+      "name": "Ingeniería de requisitos",
+      "cycle": 4,
+      "credits": 3,
+      "required": true,
+      "electiveGroup": null,
+      "row": 22,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ICSI-672",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 22, ICSI-674"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 22, ICSI-674"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 22, ICSI-674"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 22, ICSI-674"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 22, ICSI-674"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 22, ICSI-674"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-103",
+      "planId": "isia-2025",
+      "code": "ISIA-103",
+      "originalCode": "ISIA 103",
+      "name": "Sistemas empresariales",
+      "cycle": 4,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 23,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ICSI-672",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 23, ISIA-103"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 23, ISIA-103"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 23, ISIA-103"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 23, ISIA-103"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 23, ISIA-103"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 23, ISIA-103"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:HUMA-1183",
+      "planId": "isia-2025",
+      "code": "HUMA-1183",
+      "originalCode": "HUMA 1183",
+      "name": "Vigencia y trascendencia del pensamiento de Antenor Orrego",
+      "cycle": 4,
+      "credits": 2,
+      "required": true,
+      "electiveGroup": null,
+      "row": 24,
+      "prerequisite": {
+        "kind": "unknown",
+        "reason": "La casilla está vacía; no documenta ausencia de prerrequisitos (AC-10).",
+        "references": [],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 24, HUMA-1183"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 24, HUMA-1183"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 24, HUMA-1183"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 24, HUMA-1183"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 24, HUMA-1183"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 24, HUMA-1183"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-104",
+      "planId": "isia-2025",
+      "code": "ISIA-104",
+      "originalCode": "ISIA 104",
+      "name": "Cómputo distribuido y paralelo",
+      "cycle": 5,
+      "credits": 3,
+      "required": true,
+      "electiveGroup": null,
+      "row": 25,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ISIA-102",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 25, ISIA-104"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 25, ISIA-104"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 25, ISIA-104"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 25, ISIA-104"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 25, ISIA-104"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 25, ISIA-104"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:CIEN-746",
+      "planId": "isia-2025",
+      "code": "CIEN-746",
+      "originalCode": "CIEN 746",
+      "name": "Medio ambiente y desarrollo sostenible",
+      "cycle": 5,
+      "credits": 3,
+      "required": true,
+      "electiveGroup": null,
+      "row": 26,
+      "prerequisite": {
+        "kind": "unknown",
+        "reason": "La casilla está vacía; no documenta ausencia de prerrequisitos (AC-10).",
+        "references": [],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 26, CIEN-746"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 26, CIEN-746"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 26, CIEN-746"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 26, CIEN-746"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 26, CIEN-746"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 26, CIEN-746"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ICSI-521",
+      "planId": "isia-2025",
+      "code": "ICSI-521",
+      "originalCode": "ICSI 521",
+      "name": "Sistemas de gestión de base de datos",
+      "cycle": 5,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 27,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ICSI-673",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 27, ICSI-521"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 27, ICSI-521"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 27, ICSI-521"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 27, ICSI-521"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 27, ICSI-521"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 27, ICSI-521"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-105",
+      "planId": "isia-2025",
+      "code": "ISIA-105",
+      "originalCode": "ISIA 105",
+      "name": "Ingeniería del software",
+      "cycle": 5,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 28,
+      "prerequisite": {
+        "kind": "and",
+        "rules": [
+          {
+            "kind": "pass",
+            "course": "ICSI-674"
+          },
+          {
+            "kind": "pass",
+            "course": "ICSI-673"
+          },
+          {
+            "kind": "pass",
+            "course": "ISIA-103"
+          }
+        ],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 28, ISIA-105"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 28, ISIA-105"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 28, ISIA-105"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 28, ISIA-105"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 28, ISIA-105"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 28, ISIA-105"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ICSI-675",
+      "planId": "isia-2025",
+      "code": "ICSI-675",
+      "originalCode": "ICSI 675",
+      "name": "Patrones de diseño de software",
+      "cycle": 5,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 29,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ICSI-671",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 29, ICSI-675"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 29, ICSI-675"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 29, ICSI-675"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 29, ICSI-675"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 29, ICSI-675"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 29, ICSI-675"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-106",
+      "planId": "isia-2025",
+      "code": "ISIA-106",
+      "originalCode": "ISIA 106",
+      "name": "Aprendizaje estadístico",
+      "cycle": 5,
+      "credits": 3,
+      "required": true,
+      "electiveGroup": null,
+      "row": 30,
+      "prerequisite": {
+        "kind": "unknown",
+        "reason": "Conflicto entre código ISIA-103 y nombre Estadística para ingenieros (AC-01).",
+        "references": [
+          "ISIA-103",
+          "ISIA-101"
+        ],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 30, ISIA-106"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 30, ISIA-106"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 30, ISIA-106"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 30, ISIA-106"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 30, ISIA-106"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 30, ISIA-106"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-107",
+      "planId": "isia-2025",
+      "code": "ISIA-107",
+      "originalCode": "ISIA 107",
+      "name": "Infraestructura como código",
+      "cycle": 6,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 31,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ISIA-102",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 31, ISIA-107"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 31, ISIA-107"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 31, ISIA-107"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 31, ISIA-107"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 31, ISIA-107"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 31, ISIA-107"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-108",
+      "planId": "isia-2025",
+      "code": "ISIA-108",
+      "originalCode": "ISIA 108",
+      "name": "Inteligencia artificial, principios y técnicas",
+      "cycle": 6,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 32,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ISIA-106",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 32, ISIA-108"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 32, ISIA-108"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 32, ISIA-108"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 32, ISIA-108"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 32, ISIA-108"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 32, ISIA-108"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:HUMA-1185",
+      "planId": "isia-2025",
+      "code": "HUMA-1185",
+      "originalCode": "HUMA 1185",
+      "name": "Metodología de la investigación científica",
+      "cycle": 6,
+      "credits": 3,
+      "required": true,
+      "electiveGroup": null,
+      "row": 33,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ISIA-101",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 33, HUMA-1185"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 33, HUMA-1185"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 33, HUMA-1185"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 33, HUMA-1185"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 33, HUMA-1185"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 33, HUMA-1185"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-109",
+      "planId": "isia-2025",
+      "code": "ISIA-109",
+      "originalCode": "ISIA 109",
+      "name": "Agile development",
+      "cycle": 6,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 34,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ISIA-105",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 34, ISIA-109"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 34, ISIA-109"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 34, ISIA-109"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 34, ISIA-109"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 34, ISIA-109"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 1, fila 34, ISIA-109"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:CIEN-747",
+      "planId": "isia-2025",
+      "code": "CIEN-747",
+      "originalCode": "CIEN 747",
+      "name": "Taller de creatividad, innovación y emprendimiento",
+      "cycle": 6,
+      "credits": 2,
+      "required": true,
+      "electiveGroup": null,
+      "row": 35,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ISIA-105",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 35, CIEN-747"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 35, CIEN-747"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 35, CIEN-747"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 35, CIEN-747"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 35, CIEN-747"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 35, CIEN-747"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ICSI-676",
+      "planId": "isia-2025",
+      "code": "ICSI-676",
+      "originalCode": "ICSI 676",
+      "name": "Métodos cuantitativos para los negocios",
+      "cycle": 6,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 36,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ISIA-106",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 36, ICSI-676"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 36, ICSI-676"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 36, ICSI-676"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 36, ICSI-676"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 36, ICSI-676"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 36, ICSI-676"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ICSI-677",
+      "planId": "isia-2025",
+      "code": "ICSI-677",
+      "originalCode": "ICSI 677",
+      "name": "Internet de las cosas",
+      "cycle": 7,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 37,
+      "prerequisite": {
+        "kind": "and",
+        "rules": [
+          {
+            "kind": "pass",
+            "course": "ISIA-107"
+          },
+          {
+            "kind": "pass",
+            "course": "ISIA-109"
+          }
+        ],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 37, ICSI-677"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 37, ICSI-677"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 37, ICSI-677"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 37, ICSI-677"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 37, ICSI-677"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 37, ICSI-677"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-110",
+      "planId": "isia-2025",
+      "code": "ISIA-110",
+      "originalCode": "ISIA 110",
+      "name": "Machine learning",
+      "cycle": 7,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 38,
+      "prerequisite": {
+        "kind": "and",
+        "rules": [
+          {
+            "kind": "pass",
+            "course": "ISIA-108"
+          },
+          {
+            "kind": "pass",
+            "course": "ICSI-676"
+          }
+        ],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 38, ISIA-110"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 38, ISIA-110"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 38, ISIA-110"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 38, ISIA-110"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 38, ISIA-110"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 38, ISIA-110"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-111",
+      "planId": "isia-2025",
+      "code": "ISIA-111",
+      "originalCode": "ISIA 111",
+      "name": "Percepción computacional",
+      "cycle": 7,
+      "credits": 3,
+      "required": true,
+      "electiveGroup": null,
+      "row": 39,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ICSI-521",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 39, ISIA-111"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 39, ISIA-111"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 39, ISIA-111"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 39, ISIA-111"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 39, ISIA-111"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 39, ISIA-111"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-112",
+      "planId": "isia-2025",
+      "code": "ISIA-112",
+      "originalCode": "ISIA 112",
+      "name": "Arquitectura de sistemas",
+      "cycle": 7,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 40,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ISIA-109",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 40, ISIA-112"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 40, ISIA-112"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 40, ISIA-112"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 40, ISIA-112"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 40, ISIA-112"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 40, ISIA-112"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-113",
+      "planId": "isia-2025",
+      "code": "ISIA-113",
+      "originalCode": "ISIA 113",
+      "name": "Customer development",
+      "cycle": 7,
+      "credits": 3,
+      "required": true,
+      "electiveGroup": null,
+      "row": 41,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "CIEN-747",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 41, ISIA-113"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 41, ISIA-113"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 41, ISIA-113"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 41, ISIA-113"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 41, ISIA-113"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 41, ISIA-113"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-114",
+      "planId": "isia-2025",
+      "code": "ISIA-114",
+      "originalCode": "ISIA 114",
+      "name": "Automatización inteligente de procesos",
+      "cycle": 7,
+      "credits": 3,
+      "required": true,
+      "electiveGroup": null,
+      "row": 42,
+      "prerequisite": {
+        "kind": "and",
+        "rules": [
+          {
+            "kind": "pass",
+            "course": "ICSI-672"
+          },
+          {
+            "kind": "pass",
+            "course": "ISIA-108"
+          }
+        ],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 42, ISIA-114"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 42, ISIA-114"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 42, ISIA-114"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 42, ISIA-114"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 42, ISIA-114"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 42, ISIA-114"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ICSI-546",
+      "planId": "isia-2025",
+      "code": "ICSI-546",
+      "originalCode": "ICSI 546",
+      "name": "Deontología profesional",
+      "cycle": 8,
+      "credits": 2,
+      "required": true,
+      "electiveGroup": null,
+      "row": 43,
+      "prerequisite": {
+        "kind": "unknown",
+        "reason": "La casilla está vacía; no documenta ausencia de prerrequisitos (AC-10).",
+        "references": [],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 43, ICSI-546"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 43, ICSI-546"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 43, ICSI-546"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 43, ICSI-546"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 43, ICSI-546"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 43, ICSI-546"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-115",
+      "planId": "isia-2025",
+      "code": "ISIA-115",
+      "originalCode": "ISIA 115",
+      "name": "Deep learning",
+      "cycle": 8,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 44,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ISIA-110",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 44, ISIA-115"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 44, ISIA-115"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 44, ISIA-115"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 44, ISIA-115"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 44, ISIA-115"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 44, ISIA-115"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-116",
+      "planId": "isia-2025",
+      "code": "ISIA-116",
+      "originalCode": "ISIA 116",
+      "name": "Big data y analítica de datos",
+      "cycle": 8,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 45,
+      "prerequisite": {
+        "kind": "and",
+        "rules": [
+          {
+            "kind": "pass",
+            "course": "ISIA-111"
+          },
+          {
+            "kind": "pass",
+            "course": "ICSI-676"
+          }
+        ],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 45, ISIA-116"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 45, ISIA-116"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 45, ISIA-116"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 45, ISIA-116"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 45, ISIA-116"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 45, ISIA-116"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ICSI-678",
+      "planId": "isia-2025",
+      "code": "ICSI-678",
+      "originalCode": "ICSI 678",
+      "name": "Gestión de proyectos de sistemas de información",
+      "cycle": 8,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 46,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ISIA-112",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 46, ICSI-678"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 46, ICSI-678"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 46, ICSI-678"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 46, ICSI-678"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 46, ICSI-678"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 46, ICSI-678"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-117",
+      "planId": "isia-2025",
+      "code": "ISIA-117",
+      "originalCode": "ISIA 117",
+      "name": "Proyecto de investigación",
+      "cycle": 8,
+      "credits": 3,
+      "required": true,
+      "electiveGroup": null,
+      "row": 47,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "HUMA-1185",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 47, ISIA-117"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 47, ISIA-117"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 47, ISIA-117"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 47, ISIA-117"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 47, ISIA-117"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 47, ISIA-117"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-118",
+      "planId": "isia-2025",
+      "code": "ISIA-118",
+      "originalCode": "ISIA 118",
+      "name": "Gobierno de datos",
+      "cycle": 8,
+      "credits": 3,
+      "required": true,
+      "electiveGroup": null,
+      "row": 48,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ICSI-521",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 48, ISIA-118"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 48, ISIA-118"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 48, ISIA-118"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 48, ISIA-118"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 48, ISIA-118"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 48, ISIA-118"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-119",
+      "planId": "isia-2025",
+      "code": "ISIA-119",
+      "originalCode": "ISIA 119",
+      "name": "Modelos generativos de IA",
+      "cycle": 9,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 49,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ISIA-115",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 49, ISIA-119"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 49, ISIA-119"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 49, ISIA-119"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 49, ISIA-119"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 49, ISIA-119"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 49, ISIA-119"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-120",
+      "planId": "isia-2025",
+      "code": "ISIA-120",
+      "originalCode": "ISIA 120",
+      "name": "Procesamiento de lenguaje natural",
+      "cycle": 9,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 50,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ISIA-115",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 50, ISIA-120"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 50, ISIA-120"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 50, ISIA-120"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 50, ISIA-120"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 50, ISIA-120"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 50, ISIA-120"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-121",
+      "planId": "isia-2025",
+      "code": "ISIA-121",
+      "originalCode": "ISIA 121",
+      "name": "UX / UI",
+      "cycle": 9,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 51,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ICSI-678",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 51, ISIA-121"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 51, ISIA-121"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 51, ISIA-121"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 51, ISIA-121"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 51, ISIA-121"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 51, ISIA-121"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ICSI-679",
+      "planId": "isia-2025",
+      "code": "ICSI-679",
+      "originalCode": "ICSI 679",
+      "name": "Sistemas de información integrados",
+      "cycle": 9,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 52,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ICSI-678",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 52, ICSI-679"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 52, ICSI-679"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 52, ICSI-679"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 52, ICSI-679"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 52, ICSI-679"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 52, ICSI-679"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-122",
+      "planId": "isia-2025",
+      "code": "ISIA-122",
+      "originalCode": "ISIA 122",
+      "name": "Tesis I",
+      "cycle": 9,
+      "credits": 2,
+      "required": true,
+      "electiveGroup": null,
+      "row": 53,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ISIA-117",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 53, ISIA-122"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 53, ISIA-122"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 53, ISIA-122"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 53, ISIA-122"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 53, ISIA-122"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 53, ISIA-122"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-123",
+      "planId": "isia-2025",
+      "code": "ISIA-123",
+      "originalCode": "ISIA 123",
+      "name": "Taller integrador I",
+      "cycle": 9,
+      "credits": 4,
+      "required": true,
+      "electiveGroup": null,
+      "row": 54,
+      "prerequisite": {
+        "kind": "unknown",
+        "reason": "El alcance de «todo octavo ciclo» requiere confirmación (AC-03).",
+        "references": [],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 54, ISIA-123"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 54, ISIA-123"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 54, ISIA-123"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 54, ISIA-123"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 54, ISIA-123"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 54, ISIA-123"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-124",
+      "planId": "isia-2025",
+      "code": "ISIA-124",
+      "originalCode": "ISIA 124",
+      "name": "Prácticas preprofesionales",
+      "cycle": 10,
+      "credits": 3,
+      "required": true,
+      "electiveGroup": null,
+      "row": 55,
+      "prerequisite": {
+        "kind": "unknown",
+        "reason": "El alcance de «todo octavo ciclo» requiere confirmación (AC-03).",
+        "references": [],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 55, ISIA-124"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 55, ISIA-124"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 55, ISIA-124"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 55, ISIA-124"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 55, ISIA-124"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 55, ISIA-124"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-125",
+      "planId": "isia-2025",
+      "code": "ISIA-125",
+      "originalCode": "ISIA 125",
+      "name": "Tesis II",
+      "cycle": 10,
+      "credits": 2,
+      "required": true,
+      "electiveGroup": null,
+      "row": 56,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ISIA-122",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 56, ISIA-125"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 56, ISIA-125"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 56, ISIA-125"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 56, ISIA-125"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 56, ISIA-125"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 56, ISIA-125"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-134",
+      "planId": "isia-2025",
+      "code": "ISIA-134",
+      "originalCode": "ISIA 134",
+      "name": "Trabajo de investigación",
+      "cycle": 10,
+      "credits": 1,
+      "required": true,
+      "electiveGroup": null,
+      "row": 57,
+      "prerequisite": {
+        "kind": "set",
+        "courses": [
+          "ICSI-506",
+          "HUMA-900",
+          "HUMA-1179",
+          "ISIA-100",
+          "CIEN-752",
+          "CIEN-753",
+          "ICSI-509",
+          "HUMA-1181",
+          "HUMA-1180",
+          "ADMI-779",
+          "CIEN-768",
+          "CIEN-754",
+          "ISIA-101",
+          "ICSI-671",
+          "HUMA-1182",
+          "ICSI-672",
+          "CIEN-769",
+          "CIEN-755",
+          "ISIA-102",
+          "HUMA-1184",
+          "ICSI-673",
+          "ICSI-674",
+          "ISIA-103",
+          "HUMA-1183",
+          "ISIA-104",
+          "CIEN-746",
+          "ICSI-521",
+          "ISIA-105",
+          "ICSI-675",
+          "ISIA-106",
+          "ISIA-107",
+          "ISIA-108",
+          "HUMA-1185",
+          "ISIA-109",
+          "CIEN-747",
+          "ICSI-676",
+          "ICSI-677",
+          "ISIA-110",
+          "ISIA-111",
+          "ISIA-112",
+          "ISIA-113",
+          "ISIA-114",
+          "ICSI-546",
+          "ISIA-115",
+          "ISIA-116",
+          "ICSI-678",
+          "ISIA-117",
+          "ISIA-118",
+          "ISIA-119",
+          "ISIA-120",
+          "ISIA-121",
+          "ICSI-679",
+          "ISIA-122",
+          "ISIA-123"
+        ],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 57, ISIA-134"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 57, ISIA-134"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 57, ISIA-134"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 57, ISIA-134"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 57, ISIA-134"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 57, ISIA-134"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-126",
+      "planId": "isia-2025",
+      "code": "ISIA-126",
+      "originalCode": "ISIA 126",
+      "name": "Taller integrador II",
+      "cycle": 10,
+      "credits": 3,
+      "required": true,
+      "electiveGroup": null,
+      "row": 58,
+      "prerequisite": {
+        "kind": "pass",
+        "course": "ISIA-123",
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 58, ISIA-126"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 58, ISIA-126"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 58, ISIA-126"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 58, ISIA-126"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 58, ISIA-126"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 58, ISIA-126"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-127",
+      "planId": "isia-2025",
+      "code": "ISIA-127",
+      "originalCode": "ISIA 127",
+      "name": "Aplicaciones móviles para negocios",
+      "cycle": 10,
+      "credits": 4,
+      "required": false,
+      "electiveGroup": "electivo-1",
+      "row": 59,
+      "prerequisite": {
+        "kind": "unknown",
+        "reason": "La casilla está vacía; no documenta ausencia de prerrequisitos (AC-10).",
+        "references": [],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 59, ISIA-127"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 59, ISIA-127"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 59, ISIA-127"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 59, ISIA-127"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 59, ISIA-127"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 59, ISIA-127"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-128",
+      "planId": "isia-2025",
+      "code": "ISIA-128",
+      "originalCode": "ISIA 128",
+      "name": "Auditoría de sistemas de información",
+      "cycle": 10,
+      "credits": 4,
+      "required": false,
+      "electiveGroup": "electivo-1",
+      "row": 59,
+      "prerequisite": {
+        "kind": "unknown",
+        "reason": "La casilla está vacía; no documenta ausencia de prerrequisitos (AC-10).",
+        "references": [],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 59, ISIA-128"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 59, ISIA-128"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 59, ISIA-128"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 59, ISIA-128"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 59, ISIA-128"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 59, ISIA-128"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-129",
+      "planId": "isia-2025",
+      "code": "ISIA-129",
+      "originalCode": "ISIA 129",
+      "name": "Auditoría de sistemas inteligentes",
+      "cycle": 10,
+      "credits": 4,
+      "required": false,
+      "electiveGroup": "electivo-1",
+      "row": 59,
+      "prerequisite": {
+        "kind": "unknown",
+        "reason": "La casilla está vacía; no documenta ausencia de prerrequisitos (AC-10).",
+        "references": [],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 59, ISIA-129"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 59, ISIA-129"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 59, ISIA-129"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 59, ISIA-129"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 59, ISIA-129"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 59, ISIA-129"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-130",
+      "planId": "isia-2025",
+      "code": "ISIA-130",
+      "originalCode": "ISIA 130",
+      "name": "Negocios centrados en la IA",
+      "cycle": 10,
+      "credits": 4,
+      "required": false,
+      "electiveGroup": "electivo-2",
+      "row": 60,
+      "prerequisite": {
+        "kind": "unknown",
+        "reason": "La casilla está vacía; no documenta ausencia de prerrequisitos (AC-10).",
+        "references": [],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 60, ISIA-130"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 60, ISIA-130"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 60, ISIA-130"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 60, ISIA-130"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 60, ISIA-130"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 60, ISIA-130"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-131",
+      "planId": "isia-2025",
+      "code": "ISIA-131",
+      "originalCode": "ISIA 131",
+      "name": "Blockchain aplicado a sistemas empresariales",
+      "cycle": 10,
+      "credits": 4,
+      "required": false,
+      "electiveGroup": "electivo-2",
+      "row": 60,
+      "prerequisite": {
+        "kind": "unknown",
+        "reason": "La casilla está vacía; no documenta ausencia de prerrequisitos (AC-10).",
+        "references": [],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 60, ISIA-131"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 60, ISIA-131"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 60, ISIA-131"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 60, ISIA-131"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 60, ISIA-131"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 60, ISIA-131"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-132",
+      "planId": "isia-2025",
+      "code": "ISIA-132",
+      "originalCode": "ISIA 132",
+      "name": "Transformación digital",
+      "cycle": 10,
+      "credits": 4,
+      "required": false,
+      "electiveGroup": "electivo-2",
+      "row": 60,
+      "prerequisite": {
+        "kind": "unknown",
+        "reason": "La casilla está vacía; no documenta ausencia de prerrequisitos (AC-10).",
+        "references": [],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 60, ISIA-132"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 60, ISIA-132"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 60, ISIA-132"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 60, ISIA-132"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 60, ISIA-132"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 2, fila 60, ISIA-132"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isia2025:ISIA-133",
+      "planId": "isia-2025",
+      "code": "ISIA-133",
+      "originalCode": "ISIA 133",
+      "name": "Ciberseguridad",
+      "cycle": 10,
+      "credits": 4,
+      "required": false,
+      "electiveGroup": "electivo-2",
+      "row": 60,
+      "prerequisite": {
+        "kind": "unknown",
+        "reason": "La casilla está vacía; no documenta ausencia de prerrequisitos (AC-10).",
+        "references": [],
+        "evidence": [
+          {
+            "sourceId": "coding",
+            "location": "p. 3, fila 60, ISIA-133"
+          }
+        ]
+      },
+      "sources": {
+        "code": [
+          {
+            "sourceId": "coding",
+            "location": "p. 3, fila 60, ISIA-133"
+          }
+        ],
+        "name": [
+          {
+            "sourceId": "coding",
+            "location": "p. 3, fila 60, ISIA-133"
+          }
+        ],
+        "credits": [
+          {
+            "sourceId": "coding",
+            "location": "p. 3, fila 60, ISIA-133"
+          }
+        ],
+        "cycle": [
+          {
+            "sourceId": "coding",
+            "location": "p. 3, fila 60, ISIA-133"
+          }
+        ],
+        "requirement": [
+          {
+            "sourceId": "coding",
+            "location": "p. 3, fila 60, ISIA-133"
+          }
+        ]
+      }
+    }
+  ],
+  "originPlans": [
+    {
+      "id": "icsi-2022",
+      "program": "Ingeniería de Computación y Sistemas",
+      "version": "Referencia 202220 en codificación y tabla 5E",
+      "effectiveFrom": "202220",
+      "effectiveUntil": null,
+      "coverage": "partial",
+      "totalCredits": null,
+      "sources": [
+        "coding",
+        "docx17",
+        "instrument"
+      ]
+    }
+  ],
+  "origins": [
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-506",
+      "name": "ALGORITMIA Y PROGRAMACIÓN",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ICSI-506"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "HUMA-900",
+      "name": "METODOLOGIA DEL APRENDIZAJE UNIVERSITARIO",
+      "credits": 2.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con HUMA-900"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "HUMA-899",
+      "name": "LENGUAJE I",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con HUMA-1179"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-507",
+      "name": "INTRODUCCIÓN A LA INGENIERÍA DE SISTEMAS Y TECNOLOGÍAS DE INFORMACIÓN",
+      "credits": 2.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-100"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "CIEN-597",
+      "name": "ALGEBRA MATRICIAL Y GEOMETRÍA ANALÍTICA",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con CIEN-752"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "CIEN-397",
+      "name": "MATEMÁTICA I",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con CIEN-753"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-509",
+      "name": "PROGRAMACIÓN ORIENTADO A OBJETOS",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ICSI-509"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "HUMA-901",
+      "name": "LENGUAJE II",
+      "credits": 2.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con HUMA-1180"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-538",
+      "name": "ORGANIZACIÓN Y GESTIÓN DE EMPRESAS",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ADMI-779"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "CIEN-539",
+      "name": "FÍSICA I",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con CIEN-768"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "CIEN-599",
+      "name": "MATEMÁTICA II",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con CIEN-754"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "CIEN-651",
+      "name": "ESTADÍSTICA DESCRIPTIVA",
+      "credits": null,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-101"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-537",
+      "name": "ESTRUCTURA DE DATOS Y ALGORITMOS",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ICSI-671"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "HUMA-1024",
+      "name": "REALIDAD NACIONAL Y REGIONAL",
+      "credits": 2.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con HUMA-1182"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-516",
+      "name": "GESTIÓN DE PROCESOS DE NEGOCIOS",
+      "credits": null,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ICSI-672"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "CIEN-648",
+      "name": "FÍSICA II",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con CIEN-769"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "CIEN-649",
+      "name": "MATEMÁTICA DISCRETA",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con CIEN-755"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-524",
+      "name": "ARQUITECTURA Y ADMINISTRACIÓN DE REDES",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-102"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "HUMA-1038",
+      "name": "CIUDADANÍA Y DERECHOS HUMANOS",
+      "credits": 3.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con HUMA-1184"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-515",
+      "name": "BASE DE DATOS",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ICSI-673"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-513",
+      "name": "INGENIERÍA DE REQUISITOS",
+      "credits": 3.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ICSI-674"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-522",
+      "name": "SISTEMAS DE INFORMACIÓN TRANSACCIONAL",
+      "credits": 3.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-103"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "HUMA-1027",
+      "name": "ACTIVIDAD FORMATIVA IV: Vigencia y trascendencia del pensamiento de antenor orrego",
+      "credits": null,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con HUMA-1183"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-514",
+      "name": "ARQUITECTURA DE COMPUTADORAS",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-104"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "CIEN-662",
+      "name": "MEDIO AMBIENTE Y DESARROLLO SOSTENIBLE",
+      "credits": 3.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con CIEN-746"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-521",
+      "name": "SISTEMA DE GESTIÓN DE BASE DE DATOS",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ICSI-521"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-518",
+      "name": "INGENIERÍA DEL SOFTWARE I",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-105"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-510",
+      "name": "PATRONES DE DISEÑO DE SOFTWARE",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ICSI-675"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "CIEN-655",
+      "name": "ESTADÍSTICA DESCRIPTIVA",
+      "credits": null,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-106"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-530",
+      "name": "COMPUTACIÓN EN LA NUBE",
+      "credits": null,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-107"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "HUMA-1043",
+      "name": "METODOLOGÍA DE INVESTIGACIÓN CIENTÍFICA",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con HUMA-1185"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-523",
+      "name": "INGENIERÍA DEL SOFTWARE II",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-109"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-544",
+      "name": "INNOVACIÓN Y EMPRENDIMIENTO",
+      "credits": 2.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con CIEN-747"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-539",
+      "name": "MÉTODOS CUANTITATIVOS PARA LOS NEGOCIOS",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ICSI-676"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-542",
+      "name": "INTERNET DE LAS COSAS",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ICSI-677"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-551",
+      "name": "SISTEMAS INTELIGENTES",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-110"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-527",
+      "name": "INGENIERÍA DE DATOS",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-111"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-541",
+      "name": "CALIDAD DE SOFTWARE",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-113"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-557",
+      "name": "ICSI-557",
+      "credits": null,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-114"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-546",
+      "name": "DEONTOLOGIA PROFESIONAL",
+      "credits": 2.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ICSI-546"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-532",
+      "name": "SISTEMA DE SOPORTE DE DECISIONES",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-116"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-531",
+      "name": "GESTIÓN DE PROYECTOS DE SISTEMAS DE INFORMACIÓN",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ICSI-678"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-543",
+      "name": "TRABAJO DE INVESTIGACIÓN",
+      "credits": 3.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-117"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-526",
+      "name": "GESTION DE SERVICIOS DE TI",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-118"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-517",
+      "name": "INTERACCIÓN HOMBRE MÁQUINA",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-121"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-540",
+      "name": "INTEGRACIÓN DE APLICACIONES EMPRESARIALES",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ICSI-679"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-552",
+      "name": "TESIS I",
+      "credits": 2.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-122"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-560",
+      "name": "TALLER INTEGRADOR DE SISTEMAS Y TECNOLOGÍAS DE INFORMACIÓN",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-123"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-558",
+      "name": "PRACTICAS PRE-PROFESIONALES",
+      "credits": 3.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-124"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-559",
+      "name": "TESIS II",
+      "credits": 3.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-125"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-550",
+      "name": "DESARR APLIC DISPOSIT MOVILES",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-127"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-547",
+      "name": "AUDITORIA DE SISTEM.DE INFORM.",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-128"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-554",
+      "name": "SISTEMAS GESTUALES Y CONVERSACIONALES",
+      "credits": null,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-129"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-548",
+      "name": "NEGOCIOS ELECTRÓNICOS",
+      "credits": null,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-130"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-556",
+      "name": "BLOCKCHAIN",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-131"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-553",
+      "name": "GOBIERNO DE TI",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-132"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-555",
+      "name": "CIBERSEGURIDAD",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "columna ICSI, correspondencia con ISIA-133"
+        },
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E, columna créditos de origen"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-519",
+      "name": "GESTIÓN DE PROCESOS NEGOCIOS",
+      "credits": 4.0,
+      "evidence": [
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E; incidencia AC-08"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "HUMA-1012",
+      "name": "ACTIVIDAD FORMATIVO IV VIGENCIA Y TRASCENDENCIA DEL PENSAMIENTO DE ANTENOR ORREGO",
+      "credits": 1.0,
+      "evidence": [
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E; incidencia AC-08"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "CIEN-532",
+      "name": "Física general",
+      "credits": null,
+      "evidence": [
+        {
+          "sourceId": "instrument",
+          "location": "Identificando equivalencias, celda E16 (sin equivalencia directa en ISIA 2025)"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "HUMA-1021",
+      "name": "Psicología y desarrollo humano",
+      "credits": null,
+      "evidence": [
+        {
+          "sourceId": "instrument",
+          "location": "Identificando equivalencias, celda E25 (sin equivalencia directa en ISIA 2025)"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "HUMA-641",
+      "name": "Actividad formativa II: Apreciación musical",
+      "credits": null,
+      "evidence": [
+        {
+          "sourceId": "instrument",
+          "location": "Identificando equivalencias, celda E26 (sin equivalencia directa en ISIA 2025)"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "HUMA-1025",
+      "name": "Ética y valores",
+      "credits": null,
+      "evidence": [
+        {
+          "sourceId": "instrument",
+          "location": "Identificando equivalencias, celda E32 (sin equivalencia directa en ISIA 2025)"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "HUMA-679",
+      "name": "Actividad formativa III: Apreciación de artes plásticas",
+      "credits": null,
+      "evidence": [
+        {
+          "sourceId": "instrument",
+          "location": "Identificando equivalencias, celda E33 (sin equivalencia directa en ISIA 2025)"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "HUMA-903",
+      "name": "Filosofía de la ciencia",
+      "credits": null,
+      "evidence": [
+        {
+          "sourceId": "instrument",
+          "location": "Identificando equivalencias, celda E34 (sin equivalencia directa en ISIA 2025)"
+        }
+      ]
+    },
+    {
+      "planId": "icsi-2022",
+      "code": "ICSI-512",
+      "name": "Paradigmas de programación",
+      "credits": null,
+      "evidence": [
+        {
+          "sourceId": "instrument",
+          "location": "Identificando equivalencias, celda E39 (sin equivalencia directa en ISIA 2025)"
+        }
+      ]
+    }
+  ],
+  "equivalences": [
+    {
+      "id": "eq2022:ICSI-506:ICSI-506",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-506"
+      ],
+      "to": [
+        "ICSI-506"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 1, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:HUMA-900:HUMA-900",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "HUMA-900"
+      ],
+      "to": [
+        "HUMA-900"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 2, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:HUMA-899:HUMA-1179",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "HUMA-899"
+      ],
+      "to": [
+        "HUMA-1179"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 3, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-507:ISIA-100",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-507"
+      ],
+      "to": [
+        "ISIA-100"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 4, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:CIEN-597:CIEN-752",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "CIEN-597"
+      ],
+      "to": [
+        "CIEN-752"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 5, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:CIEN-397:CIEN-753",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "CIEN-397"
+      ],
+      "to": [
+        "CIEN-753"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 6, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-509:ICSI-509",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-509"
+      ],
+      "to": [
+        "ICSI-509"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 7, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:HUMA-901:HUMA-1180",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "HUMA-901"
+      ],
+      "to": [
+        "HUMA-1180"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 9, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-538:ADMI-779",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-538"
+      ],
+      "to": [
+        "ADMI-779"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 10, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:CIEN-539:CIEN-768",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "CIEN-539"
+      ],
+      "to": [
+        "CIEN-768"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 11, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:CIEN-599:CIEN-754",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "CIEN-599"
+      ],
+      "to": [
+        "CIEN-754"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 12, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:CIEN-651:ISIA-101",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "CIEN-651"
+      ],
+      "to": [
+        "ISIA-101"
+      ],
+      "type": "documented-correspondence",
+      "verification": "pending",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 13, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-537:ICSI-671",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-537"
+      ],
+      "to": [
+        "ICSI-671"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 14, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:HUMA-1024:HUMA-1182",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "HUMA-1024"
+      ],
+      "to": [
+        "HUMA-1182"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 15, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-516:ICSI-672",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-516"
+      ],
+      "to": [
+        "ICSI-672"
+      ],
+      "type": "documented-correspondence",
+      "verification": "pending",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 16, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:CIEN-648:CIEN-769",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "CIEN-648"
+      ],
+      "to": [
+        "CIEN-769"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 17, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:CIEN-649:CIEN-755",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "CIEN-649"
+      ],
+      "to": [
+        "CIEN-755"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 18, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-524:ISIA-102",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-524"
+      ],
+      "to": [
+        "ISIA-102"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 19, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:HUMA-1038:HUMA-1184",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "HUMA-1038"
+      ],
+      "to": [
+        "HUMA-1184"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 20, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-515:ICSI-673",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-515"
+      ],
+      "to": [
+        "ICSI-673"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 21, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-513:ICSI-674",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-513"
+      ],
+      "to": [
+        "ICSI-674"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 22, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-522:ISIA-103",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-522"
+      ],
+      "to": [
+        "ISIA-103"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 23, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:HUMA-1027:HUMA-1183",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "HUMA-1027"
+      ],
+      "to": [
+        "HUMA-1183"
+      ],
+      "type": "documented-correspondence",
+      "verification": "pending",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 24, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-514:ISIA-104",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-514"
+      ],
+      "to": [
+        "ISIA-104"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 25, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:CIEN-662:CIEN-746",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "CIEN-662"
+      ],
+      "to": [
+        "CIEN-746"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 26, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-521:ICSI-521",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-521"
+      ],
+      "to": [
+        "ICSI-521"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 27, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-518:ISIA-105",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-518"
+      ],
+      "to": [
+        "ISIA-105"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 28, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-510:ICSI-675",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-510"
+      ],
+      "to": [
+        "ICSI-675"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 29, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:CIEN-655:ISIA-106",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "CIEN-655"
+      ],
+      "to": [
+        "ISIA-106"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 30, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-530:ISIA-107",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-530"
+      ],
+      "to": [
+        "ISIA-107"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 31, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:HUMA-1043:HUMA-1185",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "HUMA-1043"
+      ],
+      "to": [
+        "HUMA-1185"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 33, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-523:ISIA-109",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-523"
+      ],
+      "to": [
+        "ISIA-109"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 34, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-544:CIEN-747",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-544"
+      ],
+      "to": [
+        "CIEN-747"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 35, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-539:ICSI-676",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-539"
+      ],
+      "to": [
+        "ICSI-676"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 36, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-542:ICSI-677",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-542"
+      ],
+      "to": [
+        "ICSI-677"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 37, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-551:ISIA-110",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-551"
+      ],
+      "to": [
+        "ISIA-110"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 38, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-527:ISIA-111",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-527"
+      ],
+      "to": [
+        "ISIA-111"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 39, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-541:ISIA-113",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-541"
+      ],
+      "to": [
+        "ISIA-113"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 41, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-557:ISIA-114",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-557"
+      ],
+      "to": [
+        "ISIA-114"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 42, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-546:ICSI-546",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-546"
+      ],
+      "to": [
+        "ICSI-546"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 43, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-532:ISIA-116",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-532"
+      ],
+      "to": [
+        "ISIA-116"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 45, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-531:ICSI-678",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-531"
+      ],
+      "to": [
+        "ICSI-678"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 46, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-543:ISIA-117",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-543"
+      ],
+      "to": [
+        "ISIA-117"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 47, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-526:ISIA-118",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-526"
+      ],
+      "to": [
+        "ISIA-118"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 48, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-517:ISIA-121",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-517"
+      ],
+      "to": [
+        "ISIA-121"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 51, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-540:ICSI-679",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-540"
+      ],
+      "to": [
+        "ICSI-679"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 52, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-552:ISIA-122",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-552"
+      ],
+      "to": [
+        "ISIA-122"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 53, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-560:ISIA-123",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-560"
+      ],
+      "to": [
+        "ISIA-123"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 54, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-558:ISIA-124",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-558"
+      ],
+      "to": [
+        "ISIA-124"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 55, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-559:ISIA-125",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-559"
+      ],
+      "to": [
+        "ISIA-125"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 56, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-550:ISIA-127",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-550"
+      ],
+      "to": [
+        "ISIA-127"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 59, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-547:ISIA-128",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-547"
+      ],
+      "to": [
+        "ISIA-128"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 59, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-554:ISIA-129",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-554"
+      ],
+      "to": [
+        "ISIA-129"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 59, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-548:ISIA-130",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-548"
+      ],
+      "to": [
+        "ISIA-130"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 60, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-556:ISIA-131",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-556"
+      ],
+      "to": [
+        "ISIA-131"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 60, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-553:ISIA-132",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-553"
+      ],
+      "to": [
+        "ISIA-132"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 60, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq2022:ICSI-555:ISIA-133",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-555"
+      ],
+      "to": [
+        "ISIA-133"
+      ],
+      "type": "documented-correspondence",
+      "verification": "documented",
+      "conditions": "Requiere aprobación de origen y declaración de reconocimiento individual; la tabla no acredita convalidación personal.",
+      "evidence": [
+        {
+          "sourceId": "coding",
+          "location": "fila 60, columnas ICSI → ISIA"
+        }
+      ]
+    },
+    {
+      "id": "eq-alt:CIEN-655:ISIA-101",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "CIEN-655"
+      ],
+      "to": [
+        "ISIA-101"
+      ],
+      "type": "documented-correspondence",
+      "verification": "pending",
+      "conditions": "Código o nombre contradictorio entre fuentes. Requiere revisión individual (AC-08).",
+      "evidence": [
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E; AC-08"
+        }
+      ]
+    },
+    {
+      "id": "eq-alt:ICSI-519:ICSI-672",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "ICSI-519"
+      ],
+      "to": [
+        "ICSI-672"
+      ],
+      "type": "documented-correspondence",
+      "verification": "pending",
+      "conditions": "Código o nombre contradictorio entre fuentes. Requiere revisión individual (AC-08).",
+      "evidence": [
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E; AC-08"
+        }
+      ]
+    },
+    {
+      "id": "eq-alt:HUMA-1012:HUMA-1183",
+      "fromPlan": "icsi-2022",
+      "toPlan": "isia-2025",
+      "from": [
+        "HUMA-1012"
+      ],
+      "to": [
+        "HUMA-1183"
+      ],
+      "type": "documented-correspondence",
+      "verification": "pending",
+      "conditions": "Código o nombre contradictorio entre fuentes. Requiere revisión individual (AC-08).",
+      "evidence": [
+        {
+          "sourceId": "docx17",
+          "location": "tabla 5E; AC-08"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "coding",
+      "title": "Codificación currículo ISIA-2025.pdf",
+      "version": "Inicio 202510; referencia a Resolución AU N.º 4-2024-AU-UPAO",
+      "scope": "Catálogo ISIA, requisitos y correspondencias ICSI 202220",
+      "sha256": "6e7f65f1428fda51c028ea5f2baa5639918e8079c4cce78ef7eef603e904b7a6"
+    },
+    {
+      "id": "docx17",
+      "title": "1 Ingeniería de Sistemas e Inteligencia Artificial v17.docx",
+      "version": "Propuesta, versión de archivo 17; aprobación independiente no acreditada",
+      "scope": "Contraste: tablas 5C, 5E y sumillas; no reemplaza las filas del PDF",
+      "sha256": "88106a371842c381665ea31550031f93a0b75d852c6b0ef0da331ad3926fe924"
+    },
+    {
+      "id": "instrument",
+      "title": "Instrumento malla 2025.xlsx",
+      "version": "Matrices 2015, 2019, 2022 y 2025",
+      "scope": "Sección PLAN 2022, filas 136–199; las hojas de ejemplos NO son reglas",
+      "sha256": "6ed99f436a8a55dd802a4ec43436b6073a0d6276864b7facdc41eefa6d0fd3f7"
+    },
+    {
+      "id": "malla13",
+      "title": "Malla Sistemas e IA v13.xlsx",
+      "version": "Plan de estudios 2025-10; v13",
+      "scope": "Contraste visual y de fórmulas; versión distinta del PDF",
+      "sha256": "3b9009214ab5bd6f519911100512dea5a37219f07745113680f57993a21a2534"
+    },
+    {
+      "id": "meeting",
+      "title": "ISIA Reunión con estudiantes 04_12_2024.pptx",
+      "version": "4 diciembre 2024",
+      "scope": "Implementación, diapositivas 13–14; créditos de malla de ingreso",
+      "sha256": "dada22625930162ffc2dacc824daedf6659ee4429053d1e4f52ab3cb5f52e327"
+    }
+  ],
+  "issues": [
+    {
+      "id": "AC-01",
+      "courseCode": "ISIA-106",
+      "sourceId": "coding",
+      "location": "p. 1, fila 30; DOCX tabla 5C, fila 25",
+      "fields": "prerequisite",
+      "description": "Código ISIA-103 corresponde a Sistemas empresariales; el nombre indica Estadística para ingenieros (ISIA-101).",
+      "resolution": "Pendiente de confirmación académica; regla no verificable."
+    },
+    {
+      "id": "AC-02",
+      "courseCode": "ISIA-125",
+      "sourceId": "coding",
+      "location": "p. 2, filas 56–57; DOCX tabla 5C, filas 57–59",
+      "fields": "credits,requirements",
+      "description": "PDF: Tesis II 2 + Trabajo de investigación 1. DOCX y XLSX: Tesis II 3, sin esa fila separada.",
+      "resolution": "Se conserva completa la versión PDF, sin mezclar créditos."
+    },
+    {
+      "id": "AC-03",
+      "courseCode": "ISIA-123",
+      "sourceId": "coding",
+      "location": "p. 2, filas 54–55; DOCX sumillas Taller integrador I y Prácticas",
+      "fields": "prerequisite",
+      "description": "Todo octavo ciclo no define si exige solo ciclo VIII o todos los anteriores; la sumilla dice hasta el octavo inclusive.",
+      "resolution": "Alcance sin resolver; no se elige una interpretación de otra versión."
+    },
+    {
+      "id": "AC-04",
+      "courseCode": null,
+      "sourceId": "meeting",
+      "location": "diapositiva 14; codificación p. 3",
+      "fields": "graduation,credits",
+      "description": "Se exige cumplir créditos de malla de ingreso; 205 es el total de destino, no un saldo individual de transición.",
+      "resolution": "Sin certificación de egreso. Origen parcial y destino separados."
+    },
+    {
+      "id": "AC-05",
+      "courseCode": "ISIA-134",
+      "sourceId": "coding",
+      "location": "p. 2, fila 57",
+      "fields": "prerequisite",
+      "description": "De la 1 a la 54 refiere a filas de este documento, no a números de códigos ni comparación genérica de ciclos.",
+      "resolution": "Conjunto explícito de las primeras 54 filas obligatorias de esta versión."
+    },
+    {
+      "id": "AC-06",
+      "courseCode": null,
+      "sourceId": "coding",
+      "location": "p. 2, celdas fusionadas 59 y 60; p. 3",
+      "fields": "electiveGroup",
+      "description": "Siete opciones electivas, pero dos cupos. Fila 59: 127–129; fila 60: 130–133.",
+      "resolution": "Un curso de 4 créditos por grupo. Recuento total: 197 obligatorios + 8 electivos = 205."
+    },
+    {
+      "id": "AC-07",
+      "courseCode": "CIEN-768",
+      "sourceId": "coding",
+      "location": "p. 1, fila 11; DOCX sumilla Física I",
+      "fields": "prerequisite",
+      "description": "Casilla de prerrequisito vacía; sumilla menciona Álgebra matricial. Otras casillas vacías tampoco dicen Ninguno.",
+      "resolution": "Casilla vacía se conserva como no verificable; no se elimina dependencia."
+    },
+    {
+      "id": "AC-08",
+      "courseCode": null,
+      "sourceId": "instrument",
+      "location": "Matrices, filas 148,151,159; DOCX tabla 5E",
+      "fields": "equivalence",
+      "description": "Diferencias de códigos en Estadística descriptiva (651/655), Procesos (516/519) y Vigencia (1027/1012).",
+      "resolution": "Correspondencias alternativas conservadas como pendientes, nunca reconocimiento automático."
+    },
+    {
+      "id": "AC-09",
+      "courseCode": null,
+      "sourceId": "coding",
+      "location": "encabezado p. 1 y columna derecha",
+      "fields": "originCoverage",
+      "description": "La columna ICSI no es la malla de origen completa ni describe todos sus prerrequisitos.",
+      "resolution": "ICSI 2022 solo catálogo parcial para historial y transición; no planificable como plan completo."
+    },
+    {
+      "id": "AC-10",
+      "courseCode": null,
+      "sourceId": "coding",
+      "location": "p. 1 filas 1–6 y casillas de requisito vacías restantes",
+      "fields": "prerequisite",
+      "description": "Ninguno es explícito en las primeras seis filas; una celda en blanco no aporta la misma evidencia.",
+      "resolution": "Las demás ausencias quedan por verificar, aunque haya sumillas de propuesta que sugieran Ninguno."
+    },
+    {
+      "id": "AC-11",
+      "courseCode": null,
+      "sourceId": "docx17",
+      "location": "tabla 5C y sumillas Percepción, Modelos generativos, PLN, Tesis I, UX/UI",
+      "fields": "prerequisite",
+      "description": "Hay diferencias internas en requisitos entre tablas y sumillas, además de la versión PDF.",
+      "resolution": "Se preservan como versiones de contraste; no se mezclan para fabricar una versión nueva."
+    }
+  ]
+}
