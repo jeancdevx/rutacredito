@@ -23,6 +23,7 @@ export default function Dovi({
       alt=''
       width='160'
       height='160'
+      loading='eager'
     />
   )
 }
