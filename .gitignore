@@ -39,3 +39,23 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# skills
+/.agents
+skills-lock.json
+
+# docs
+/docs/Umbral_Dovi_Final
+# Private academic reports and source documents
+/docs/private/
+/docs/Umbral_Dovi_Final/
+/test-results/
+/playwright-report/
+!.env.example
+
+# Local motion authoring caches and generated review artifacts
+**/.hyperframes/
+/motion/**/assets/three*.js
+/motion/**/assets/gsap.min.js
+/motion/.portrait/
+/motion/**/renders/
