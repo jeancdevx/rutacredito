@@ -1,0 +1,34 @@
+{
+  "measuredAt": "2026-11-18T13:22:34.877Z",
+  "environment": "Chromium headless; desktop GPU and CPU throttling, not a physical phone",
+  "results": [
+    {
+      "viewport": "1440x1000",
+      "cpuThrottle": 1,
+      "settledTime": 0.010489,
+      "idleRAF": 0,
+      "longTasks": [],
+      "seekable": {
+        "until": 12,
+        "width": 1920,
+        "height": 1080
+      },
+      "pageErrors": [],
+      "overflow": false
+    },
+    {
+      "viewport": "360x800",
+      "cpuThrottle": 4,
+      "settledTime": 0.007113,
+      "idleRAF": 0,
+      "longTasks": [],
+      "seekable": {
+        "until": 12,
+        "width": 720,
+        "height": 1280
+      },
+      "pageErrors": [],
+      "overflow": false
+    }
+  ]
+}
