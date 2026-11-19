@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><defs><pattern id="p" width="180" height="220" patternUnits="userSpaceOnUse"><path d="M35 200V90a55 55 0 0 1 110 0v110" fill="none" stroke="#F7D4C2" stroke-width="22"/></pattern></defs><path fill="#F6F0E6" d="M0 0h1200v800H0z"/><path fill="url(#p)" d="M0 0h1200v800H0z"/></svg>
