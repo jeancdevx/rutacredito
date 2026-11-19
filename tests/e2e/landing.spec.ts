@@ -105,7 +105,8 @@ test('vitrina visual de la landing cambia capítulos sin superposición ni desbo
 
   await section.scrollIntoViewIfNeeded()
   const viewport = section.locator('.showcase-viewport')
-  const chapters = section.locator('.showcase-chapters')
+  const frame = section.locator('.showcase-frame')
+  const rail = section.locator('.showcase-rail')
   const tabs = section.getByRole('tab')
 
   await expect(tabs).toHaveCount(3)
@@ -115,14 +116,16 @@ test('vitrina visual de la landing cambia capítulos sin superposición ni desbo
 
     await tab.click()
     await expect(tab).toHaveAttribute('aria-selected', 'true')
-    const [viewportBox, chaptersBox, imageBox] = await Promise.all([
+    const [viewportBox, frameBox, railBox, imageBox] = await Promise.all([
       viewport.boundingBox(),
-      chapters.boundingBox(),
+      frame.boundingBox(),
+      rail.boundingBox(),
       viewport.locator('img.is-visible').boundingBox()
     ])
 
     expect(viewportBox).not.toBeNull()
-    expect(chaptersBox).not.toBeNull()
+    expect(frameBox).not.toBeNull()
+    expect(railBox).not.toBeNull()
     expect(imageBox).not.toBeNull()
     await expect
       .poll(() =>
@@ -133,10 +136,18 @@ test('vitrina visual de la landing cambia capítulos sin superposición ni desbo
       .toBeGreaterThan(0)
     expect(imageBox!.width).toBeLessThanOrEqual(viewportBox!.width + 1)
     expect(imageBox!.height).toBeLessThanOrEqual(viewportBox!.height + 1)
-    expect(viewportBox!.y + viewportBox!.height).toBeLessThanOrEqual(
-      chaptersBox!.y + 1
-    )
+    const separatedHorizontally =
+      railBox!.x + railBox!.width <= frameBox!.x + 1 ||
+      frameBox!.x + frameBox!.width <= railBox!.x + 1
+    const separatedVertically =
+      frameBox!.y + frameBox!.height <= railBox!.y + 1 ||
+      railBox!.y + railBox!.height <= frameBox!.y + 1
+
+    expect(separatedHorizontally || separatedVertically).toBe(true)
   }
+
+  await section.getByRole('button', { name: 'Siguiente vista' }).click()
+  await expect(tabs.nth(0)).toHaveAttribute('aria-selected', 'true')
 
   expect(
     await page.evaluate(
