@@ -6,22 +6,55 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "typecheck": "next typegen && tsc --noEmit",
+    "lint": "oxlint .",
+    "lint:fix": "oxlint --fix .",
+    "format": "oxfmt --write .",
+    "format:check": "oxfmt --check .",
+    "test": "node --import tsx tests/run.ts",
+    "test:e2e": "playwright test",
+    "catalog:validate": "node --import tsx scripts/validate-catalog.ts",
+    "catalog:extract": "python3 scripts/extract_sources.py",
+    "catalog:build": "python3 scripts/build_catalog.py",
+    "prepare": "node scripts/prepare.mjs",
+    "check": "pnpm typecheck && pnpm lint && pnpm format:check && pnpm catalog:validate && pnpm test && pnpm build",
+    "motion:prepare": "node scripts/prepare-motion.mjs",
+    "motion:render": "node scripts/render-motion.mjs",
+    "motion:encode": "node scripts/encode-motion.mjs"
   },
   "dependencies": {
+    "@base-ui/react": "1.9.0",
+    "@phosphor-icons/react": "2.1.10",
     "next": "16.4.6",
+    "pdfjs-dist": "6.5.438",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "zod": "4.6.7"
   },
   "devDependencies": {
-    "@tailwindcss/turbopack": "4.3.3",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.4.6",
-    "tailwindcss": "4.3.3",
-    "typescript": "^5"
+    "@commitlint/cli": "21.2.4",
+    "@commitlint/config-conventional": "21.2.4",
+    "@playwright/test": "1.65.1",
+    "@stylistic/eslint-plugin": "6.0.1",
+    "@tailwindcss/postcss": "4.3.5",
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "gsap": "3.15.1",
+    "husky": "9.1.7",
+    "lint-staged": "17.6.1",
+    "node": "24.22.3",
+    "oxfmt": "0.79.0",
+    "oxlint": "1.94.0",
+    "postcss": "8.5.33",
+    "tailwindcss": "4.3.5",
+    "three": "0.187.0",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": "24.x",
+    "pnpm": ">=10.33.2 <11"
   },
   "packageManager": "pnpm@10.33.2"
 }
