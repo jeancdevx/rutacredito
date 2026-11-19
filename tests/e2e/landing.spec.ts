@@ -95,3 +95,52 @@ test('recorrido local: vídeo seekable, scroll reversible y controles sin bloque
     .click()
   await expect(page.getByRole('heading', { name: 'Mi malla.' })).toBeVisible()
 })
+
+test('vitrina visual de la landing cambia capítulos sin superposición ni desborde', async ({
+  page
+}) => {
+  await page.emulateMedia({ reducedMotion: 'reduce' })
+  await page.goto('/')
+  const section = page.locator('#recorrido-visual')
+
+  await section.scrollIntoViewIfNeeded()
+  const viewport = section.locator('.showcase-viewport')
+  const chapters = section.locator('.showcase-chapters')
+  const tabs = section.getByRole('tab')
+
+  await expect(tabs).toHaveCount(3)
+
+  for (let i = 0; i < 3; i += 1) {
+    const tab = tabs.nth(i)
+
+    await tab.click()
+    await expect(tab).toHaveAttribute('aria-selected', 'true')
+    const [viewportBox, chaptersBox, imageBox] = await Promise.all([
+      viewport.boundingBox(),
+      chapters.boundingBox(),
+      viewport.locator('img.is-visible').boundingBox()
+    ])
+
+    expect(viewportBox).not.toBeNull()
+    expect(chaptersBox).not.toBeNull()
+    expect(imageBox).not.toBeNull()
+    await expect
+      .poll(() =>
+        viewport
+          .locator('img.is-visible')
+          .evaluate(el => (el as HTMLImageElement).naturalWidth)
+      )
+      .toBeGreaterThan(0)
+    expect(imageBox!.width).toBeLessThanOrEqual(viewportBox!.width + 1)
+    expect(imageBox!.height).toBeLessThanOrEqual(viewportBox!.height + 1)
+    expect(viewportBox!.y + viewportBox!.height).toBeLessThanOrEqual(
+      chaptersBox!.y + 1
+    )
+  }
+
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= window.innerWidth + 1
+    )
+  ).toBe(true)
+})
