@@ -1,0 +1,40 @@
+.reveal-band {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-top: 1px solid #e0d1c6;
+}
+.reveal-band-inner {
+  max-width: 820px;
+}
+.reveal-band .eyebrow {
+  margin-bottom: 24px;
+  color: var(--coral);
+}
+.reveal-statement {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 4.4vw, 56px);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+  margin: 0;
+  text-wrap: balance;
+}
+.reveal-word {
+  color: #38263d48;
+  transition: color 360ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal-word.is-lit {
+  color: var(--plum);
+}
+@media (max-width: 600px) {
+  .reveal-band {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal-word {
+    color: var(--plum);
+    transition: none;
+  }
+}
