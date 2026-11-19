@@ -1,227 +1,182 @@
-# RutaCréditos
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="public/brand/rc-horizontal-mono-blanco.svg">
+    <img src="public/brand/rc-horizontal-color.svg" alt="RutaCréditos" width="380">
+  </picture>
+</p>
 
-**Tu próximo paso, claro.** Aplicación pública, gratuita y sin cuenta para
-consultar avance ISIA, revisar transición desde ICSI y explorar próximos ciclos.
-Todos los datos del visitante se procesan en su navegador. No requiere API de
-IA, base de datos ni servicios externos.
+<p align="center">
+  Consulta de avance ISIA, transición desde ICSI y planificación de próximos
+  ciclos sin cuenta, con procesamiento íntegro en el navegador.
+</p>
 
-## Ejecutar
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-16.4.6-18181b?logo=nextdotjs&logoColor=white" alt="Next.js 16.4.6">
+  <img src="https://img.shields.io/badge/React-19.3.0-1f2937?logo=react&logoColor=white" alt="React 19.3.0">
+  <img src="https://img.shields.io/badge/TypeScript-5.9.3-27364b?logo=typescript&logoColor=white" alt="TypeScript 5.9.3">
+  <img src="https://img.shields.io/badge/Node.js-24-2f3e2e?logo=nodedotjs&logoColor=white" alt="Node.js 24">
+</p>
 
-Requisitos: **Node 24 LTS** (fijado a 24.22.3 en `.nvmrc` y `.node-version`) y
-**pnpm 10.33.2**. El manifiesto también fija el ejecutable local de Node para
-que los scripts utilicen Node 24. Si la terminal usa otra versión, activa
-primero Node 24 con tu gestor; no ignores el aviso de `engines` en el entorno de
-despliegue.
+![Portada de RutaCréditos en escritorio](docs/screenshots/hero-cinematic-desktop.png)
+
+## Qué es
+
+RutaCréditos es una aplicación web pública y sin registro para estudiantes de
+Ingeniería de Sistemas e Inteligencia Artificial en UPAO. Consulta el avance del
+plan ISIA 2025, revisa las correspondencias desde ICSI 2022 y planifica los
+próximos ciclos. Funciona sin API de IA, base de datos ni servicios externos.
+
+El motor evalúa prerrequisitos, créditos y cupos electivos de forma
+determinista; conserva las reglas vacías o contradictorias como no verificables
+y separa los créditos de origen del avance reconocido en destino.
+
+## Funciones
+
+### Malla y avance
+
+- Portada con un explorador de conexiones interactivo sobre un caso ficticio y
+  configuración explícita de cohorte, plan y transición, sin deducir el plan por
+  año ni por prefijos de cursos.
+- Avance en destino, créditos originales, electivos por cupos e incertidumbres
+  separadas; malla por conexiones, ciclos y lista con ficha de requisitos.
+
+### Planificador
+
+- Simulación de varios periodos con carga preferida y heurística determinista.
+- Escenarios persistidos y comparador lado a lado con diferencias entre rutas.
+
+### Registro de intentos y respaldo
+
+- Historial con búsqueda, edición por lote con resumen, deshacer y borrado
+  confirmado; almacenamiento versionado, recuperación y avisos entre pestañas.
+- Respaldo JSON, plantilla e historial CSV, exportación de escenarios, lector
+  PDF local con revisión previa y resumen imprimible.
+
+### Transparencia de fuentes
+
+- Transición con evidencia y declaraciones individuales separadas de la tabla,
+  conservando inconsistencias sin simular convalidaciones automáticas.
+
+## Capturas
+
+![Malla curricular organizada por ciclos en escritorio](docs/screenshots/malla-ciclos-desktop.png)
+
+_Muestra el avance por ciclo, filtra por estado y detalla requisitos y
+conexiones._
+
+![Planificador de varios periodos en escritorio](docs/screenshots/planificador-desktop.png)
+
+_Simula periodos futuros según límite de créditos, valida requisitos y sugiere
+cursos._
+
+![Comparador de escenarios académicos en escritorio](docs/screenshots/comparador-desktop.png)
+
+_Contrasta dos escenarios y mide la diferencia en créditos cubiertos y cursos
+habilitados._
+
+<p align="center">
+  <img src="docs/screenshots/detalle-mobile.png" alt="Ficha de curso en móvil" width="230">
+  <img src="docs/screenshots/tour-mobile.png" alt="Recorrido guiado en móvil" width="230">
+  <img src="docs/screenshots/closing-invitation-mobile.png" alt="Invitación final en móvil" width="230">
+</p>
+
+## Stack
+
+- Next.js 16.4.6 con App Router, React 19.3.0 y TypeScript 5.9.3
+- Tailwind CSS 4.3.5, Base UI 1.9.0, Zod 4.6.7 y pdf.js 6.5.438
+- Playwright 1.65.1, Oxlint 1.94.0 y Oxfmt 0.79.0
+
+## Empezar
+
+Requiere **Node 24 LTS**, fijado en `24.22.3` en `.nvmrc` y `.node-version`, y
+**pnpm 10.33.2**; el manifiesto fija el ejecutable local de Node y `prepare`
+instala Husky en `.git` y copia el worker local de pdf.js sin CDN.
 
 ```sh
 pnpm install --frozen-lockfile
 pnpm dev
 ```
 
-Abrir el Local URL que imprime Next, normalmente `http://localhost:3000`. El
-acceso a `/app?mode=demo` carga un perfil ficticio aislado. `/app` abre el
-espacio personal y su configuración. La demo nunca reemplaza el espacio
-personal.
+Abrir `http://localhost:3000`. `/app?mode=demo` carga un perfil ficticio aislado
+sin reemplazar `/app`. Scripts: `pnpm typecheck`, `pnpm lint`, `pnpm lint:fix`,
+`pnpm format`, `pnpm format:check`, `pnpm catalog:validate`, `pnpm test`,
+`pnpm build`, `pnpm start` y `pnpm check`, que encadena hasta el build.
 
-```sh
-pnpm typecheck
-pnpm lint
-pnpm format:check
-pnpm catalog:validate
-pnpm test
-pnpm build
-pnpm start
-```
+## Pruebas
 
-`pnpm check` reúne las comprobaciones de código, catálogo, motor y build. Next
-16.4.6 / React 19.3, TypeScript, CSS con variables y fuentes locales. Las
-dependencias y el lockfile están fijados.
-
-## Pruebas de navegador
+`pnpm test` valida motor, esquemas Zod, importaciones, recuperación, créditos y
+correspondencias. Playwright inicia producción en el puerto **3100** tras un
+build previo, usa perfiles y PDF sintéticos en escritorio y 360 px, escribe
+capturas en `docs/screenshots/` y admite `PLAYWRIGHT_CHROMIUM_EXECUTABLE`.
 
 ```sh
 pnpm exec playwright install chromium
 pnpm test:e2e
 ```
 
-Playwright inicia producción en **3100**, separado del dev en 3000. Requiere un
-build previo. Detecta el Chrome local de este entorno; en otros equipos utiliza
-el Chromium instalado por Playwright. Se puede indicar otro ejecutable mediante
-`PLAYWRIGHT_CHROMIUM_EXECUTABLE`.
-
-Los recorridos usan exclusivamente perfiles y PDFs sintéticos. Cubren escritorio
-y 360 px, foco, demo/personal, historial por lote y deshacer, detalle, periodos,
-comparación, respaldo, recarga, recuperación e importaciones. Las capturas se
-escriben en `docs/screenshots/`; los informes temporales están ignorados por
-git. `docs/STATUS.md` registra resultados y límites de la verificación.
-
-## Qué está implementado
-
-- Landing con explorador de conexiones real sobre un ejemplo ficticio.
-- Configuración explícita de cohorte, plan de ingreso y transición, sin deducir
-  el plan por el año ni por prefijos de cursos.
-- Avance de destino, créditos originales conocidos, electivos por cupos e
-  incertidumbres separadas.
-- Historial de intentos, búsqueda, edición por lote con resumen, deshacer y
-  eliminación confirmada.
-- Malla por conexiones, ciclos y lista; ficha con reglas, razones, dependientes,
-  correspondencias y fuentes.
-- Planificador de varios periodos, carga preferida, heurística determinista,
-  escenarios persistidos y comparación con diferencias.
-- Transición con evidencia y declaraciones individuales separadas de la tabla.
-- Respaldo/importación JSON, plantilla e historial CSV, exportación de
-  escenarios, lector PDF local con revisión y resumen imprimible para guardar
-  PDF.
-- Almacenamiento versionado, recuperación de copia anterior válida, advertencias
-  de cuota/restricción y protección ante cambios en otra pestaña.
-
 ## Cobertura académica
 
-Catálogo ISIA de **Codificación currículo ISIA-2025.pdf**, inicio documentado
-202510: 65 opciones de asignatura, 58 obligatorias y dos cupos electivos.
-**197 + 8 = 205 créditos de requisitos**; no se suman todas las opciones
-electivas. ICSI 2022 es únicamente origen parcial para historial y
-correspondencias. No se anuncia una malla ICSI completa ni se certifica egreso
-de transición.
+El catálogo ISIA viene de `Codificación currículo ISIA-2025.pdf`, inicio
+`202510`: **65** opciones de asignatura, **58** obligatorias, **dos cupos
+electivos** y **197 + 8 = 205 créditos de requisitos**. ICSI 2022 es origen
+parcial, sin malla completa ni certificación de egreso. Se preservan **11
+incidencias**, como ISIA-103 y Aprendizaje estadístico, «todo octavo ciclo»,
+Tesis II frente a Trabajo de investigación y códigos de origen; reglas vacías o
+contradictorias devuelven «no verificable».
 
-Hay 11 incidencias académicas preservadas, incluidas ISIA-103/nombre del
-requisito de Aprendizaje estadístico, alcance «todo octavo ciclo», diferencia
-Tesis II / Trabajo de investigación y discrepancias de códigos de origen. Las
-reglas vacías o contradictorias devuelven «no verificable». Ver
-[la auditoría](docs/CURRICULUM_AUDIT.md) y [límites](docs/KNOWN_LIMITATIONS.md).
+La tabla no convalida cursos individuales. Créditos mínimos al inicio de
+periodo, en curso no equivale a aprobado y la simulación solo asume aprobados
+cursos previos; no hay oferta, horarios ni vacantes. Ver
+[auditoría curricular](docs/CURRICULUM_AUDIT.md) y
+[límites conocidos](docs/KNOWN_LIMITATIONS.md).
 
-La tabla documental no convalida cursos individuales. Los créditos mínimos se
-evalúan al inicio de un periodo. En curso no significa aprobado. Una simulación
-solo asume aprobados los cursos válidos de periodos anteriores; nunca habilita
-prerrequisitos dentro del mismo periodo. Ninguna vista representa oferta real,
-horarios o vacantes de la universidad.
+## Privacidad
+
+Los originales de las fuentes y los reportes personales de `docs/private/` están
+ignorados por git y excluidos de fixtures, capturas y bundle. No hay analítica,
+servidores ni retención de PDFs. `localStorage` es local al origen y navegador,
+no sincroniza y puede borrarse; exportar JSON antes de cambiar de equipo y
+guardar copias de forma privada.
 
 ## Estructura y mantenimiento
 
-Se sigue la
-[convención de Josh Comeau](https://www.joshwcomeau.com/react/file-structure/):
-`src/components/Nombre/Nombre.tsx` e `index.ts` con reexportación explícita,
-hijos/constantes/estilos locales junto al componente y funciones de dominio en
-`src/helpers/`. Ver [estructura](docs/COMPONENT_STRUCTURE.md).
+Componentes según Josh Comeau en `src/components/Nombre/Nombre.tsx` con
+`index.ts` explícito y auxiliares locales; ver
+[estructura](docs/COMPONENT_STRUCTURE.md). Motor puro en
+`src/helpers/academic.helpers.ts` y esquemas Zod en
+`src/helpers/validation.helpers.ts`. Para añadir un plan: fuentes autorizadas e
+incidencias, cursos con `none`, `pass`, `and`, `or`, `credits`, `set`, `cycles`
+o `unknown`, correspondencias direccionales, opciones de esquema y pruebas. La
+app usa `src/data/catalog.json`; se regenera desde `docs/Umbral_Dovi_Final/` con
+Python 3 y `pdftotext`/`pdftoppm` usando `pnpm catalog:extract`,
+`pnpm catalog:build` y `pnpm catalog:validate`.
 
-El motor puro está en `src/helpers/academic.helpers.ts`, separado de React,
-almacenamiento y componentes. Los esquemas Zod están en
-`src/helpers/validation.helpers.ts`; la contabilidad no depende de componentes.
+Los vídeos de portada se sirven desde `public/hero/` y se regeneran desde
+`motion/ruta-world/` con `pnpm motion:prepare`, `pnpm motion:render` y
+`pnpm motion:encode`.
 
-Para agregar un plan:
+## Documentación
 
-1. Incorporar fuentes autorizadas y una versión coherente. Registrar cobertura,
-   vigencia, total de requisitos y cada incidencia sin resolver.
-2. Añadir cursos con IDs propios de versión, código original/normalizado,
-   créditos, ciclo, obligatoriedad, grupo y evidencia por campo. Las expresiones
-   pueden ser `none`, `pass`, `and`, `or`, `credits`, `set`, `cycles` o
-   `unknown`.
-3. Añadir correspondencias direccionales por conjuntos, condiciones, versiones y
-   evidencia. Nunca asumir reconocimiento individual por coincidir un código.
-4. Ampliar las opciones admitidas del esquema de perfil/intentos/escenario y el
-   onboarding solo para la nueva cobertura validada. Las ramas visuales son
-   específicas de versión y se añaden únicamente si sus aristas son
-   verificables.
-5. Ejecutar el validador y pruebas sintéticas de ese plan; contrastar totales y
-   cupos. El motor recibe el catálogo como argumento y no necesita reescribirse.
+- [Estado del proyecto](docs/STATUS.md)
+- [Guion de demostración](docs/DEMO_SCRIPT.md)
+- [Descripción para postulación](docs/SUBMISSION.md)
+- [Investigación de diseño](docs/DESIGN_RESEARCH.md)
+- [Plan de implementación](docs/IMPLEMENTATION_PLAN.md)
+- [Estructura de componentes](docs/COMPONENT_STRUCTURE.md)
+- [Auditoría curricular](docs/CURRICULUM_AUDIT.md)
+- [Límites conocidos](docs/KNOWN_LIMITATIONS.md)
+- [Capturas en perfiles ficticios](docs/screenshots/)
 
-La app funciona con `src/data/catalog.json` incluido; no necesita los
-originales. Para reproducir la extracción, situar los insumos en la carpeta
-privada de fuentes `docs/Umbral_Dovi_Final/`, luego ejecutar:
+## Despliegue
 
-```sh
-pnpm catalog:extract
-pnpm catalog:build
-pnpm catalog:validate
-```
+No hay despliegue conectado ni URL pública verificada en este repositorio. Para
+publicar en Vercel: importar con **Next.js** y **Node.js 24.x**, instalar con
+`pnpm install --frozen-lockfile` y compilar con `pnpm build` sin claves ni base
+de datos. `NEXT_PUBLIC_SITE_URL` en `.env.example` fija la URL pública opcional;
+luego comprobar `/`, `/app?mode=demo`, ficha, escenarios, comparador y JSON. La
+postulación exige mantener la aplicación accesible hasta el 21 de noviembre
+de 2026.
 
-La extracción Office utiliza Python 3 estándar y conserva tablas, coordenadas y
-fórmulas. La lectura inicial del PDF requiere `pdftotext`/`pdftoppm`; la
-transcripción revisada se conserva como CSV. No se ejecutan scripts internos del
-kit de marca.
-
-## Privacidad y archivos
-
-Los originales están ignorados. Los reportes personales se mantienen en
-`docs/private/`, también ignorada. No se deben añadir a fixtures, capturas,
-publicaciones, variables de entorno ni bundles. La app no importa esos archivos
-ni conserva PDFs originales. No incluye analítica ni envía historial a un
-servidor.
-
-localStorage es local a este origen y navegador, puede borrarse y no sincroniza.
-Exportar JSON antes de cambiar de dispositivo u origen. Las copias exportadas
-contienen lo que se registró; deben conservarse de forma privada.
-
-## Calidad de código y commits
-
-- Oxlint y Oxfmt reemplazan ESLint. `pnpm lint:fix` y `pnpm format` aplican
-  reglas.
-- Husky: `pre-commit` ejecuta lint-staged y `commit-msg` comprueba Conventional
-  Commits con commitlint. Ejemplos: `feat: añadir escenario`,
-  `fix: corregir cálculo`.
-- `pnpm install` ejecuta `prepare`: instala hooks cuando hay `.git` y copia el
-  worker PDF local de la versión fijada. No utiliza CDN.
-- Las licencias OFL de Newsreader e Instrument Sans están en `public/brand/`.
-
-## Desplegar en Vercel
-
-No hay un proyecto de despliegue conectado ni un enlace público comprobado en
-este checkout. El build local está preparado para la plataforma estándar
-Next.js.
-
-1. Subir estos cambios al repositorio autorizado mediante el flujo habitual.
-2. En Vercel, importar `jeancdevx/rutacredito`, raíz del repositorio y framework
-   **Next.js**. Seleccionar **Node.js 24.x** en Build and Deployment.
-3. Install: `pnpm install --frozen-lockfile`. Build: `pnpm build`. Output: valor
-   predeterminado de Next.js. No configurar API keys ni una base de datos.
-4. Opcional: establecer `NEXT_PUBLIC_SITE_URL` con la URL pública real. Si no se
-   define, se detectan las variables Vercel de dominio. Localmente, sin URL, no
-   se inventa un canonical; Next puede avisar que usa localhost para el OG.
-5. Desplegar. En una sesión limpia comprobar `/`, demo, ficha, escenario,
-   comparación, descarga y recuperación JSON. Abrir también desde un móvil.
-6. Conservar la aplicación accesible hasta el 21 de noviembre de 2026 según las
-   bases suministradas. No se ha enviado ninguna postulación.
-
-[Node 24 está soportado por Vercel](https://vercel.com/changelog/node-js-24-lts-is-now-generally-available-for-builds-and-functions).
-`.env.example` enumera los únicos campos opcionales; las funciones principales
-funcionan sin variables.
-
-## Material de demostración
-
-[Guion de 2 minutos](docs/DEMO_SCRIPT.md),
-[descripción de postulación](docs/SUBMISSION.md),
-[investigación de diseño](docs/DESIGN_RESEARCH.md),
-[plan de implementación](docs/IMPLEMENTATION_PLAN.md) y
-[capturas reales con perfiles ficticios](docs/screenshots/).
-
-### Recorrido de la portada
-
-Los vídeos entregados están en `public/hero/` y no necesitan claves ni servicios
-de generación para funcionar. Se usan `Link`, `Image`, fuentes locales de Next y
-Tailwind 4 con tokens de marca. Select, Dialog y Popover proceden de Base UI.
-
-El proyecto editable de HyperFrames está en `motion/ruta-world/`. Sus tres
-imágenes originales generadas con imagegen se conservan en `assets/frames/`, con
-prompts y procedencia. El render reconstruye una escena 2.5D con portales,
-profundidad y cámara; no es una filmación de UPAO ni un vídeo de
-Higgsfield/Sora.
-
-Para volver a renderizar (Node 24, pnpm, Chromium con WebGL y FFmpeg
-instalados):
-
-```bash
-pnpm motion:prepare
-pnpm motion:render
-pnpm motion:encode
-```
-
-El CLI HyperFrames está fijado en 0.9.65 para esa tarea de autoría. Los masters
-y cachés quedan ignorados; los MP4 y pósters finales se incluyen para desplegar.
-La cámara móvil se renderiza a 1080 × 1920 y se distribuye a 720 × 1280. El
-vídeo solo sigue el scroll; movimiento reducido y ahorro de datos usan una
-alternativa estática. El modo local no hace solicitudes a generadores de medios.
-
-El recorrido puede seguir editándose en la aplicación de escritorio de
-[HyperFrames](https://hyperframes.studio/studio/download?os=linux&src=cli),
-abriendo el proyecto `motion/ruta-world`. Antes de abrirlo allí, detén cualquier
-preview de ese proyecto para evitar dos editores sobre los mismos archivos.
+Proyecto independiente de apoyo estudiantil; no es un sistema oficial de UPAO ni
+emite constancias académicas. Las licencias OFL de Newsreader e Instrument Sans
+se conservan en `public/brand/`.
