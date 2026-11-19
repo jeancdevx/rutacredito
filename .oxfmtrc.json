@@ -1,0 +1,53 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "htmlWhitespaceSensitivity": "css",
+  "jsxSingleQuote": true,
+  "printWidth": 80,
+  "proseWrap": "always",
+  "quoteProps": "as-needed",
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "none",
+  "useTabs": false,
+  "sortImports": {
+    "order": "asc",
+    "ignoreCase": false,
+    "newlinesBetween": true,
+    "internalPattern": ["@/"],
+    "sortSideEffects": false,
+    "groups": [
+      ["builtin", "type-builtin"],
+      ["external", "type-external"],
+      ["internal", "type-internal", "subpath", "type-subpath"],
+      ["parent", "type-parent"],
+      ["sibling", "type-sibling", "index", "type-index"],
+      "style",
+      "unknown"
+    ]
+  },
+  "ignorePatterns": [
+    ".next/**",
+    "out/**",
+    "node_modules/**",
+    ".agents/**",
+    ".codex/**",
+    "public/**",
+    "docs/private/**",
+    "docs/Umbral_Dovi_Final/**",
+    "src/data/catalog.json",
+    "pnpm-lock.yaml",
+    "skills-lock.json",
+    "AGENTS.md",
+    "test-results/**",
+    "playwright-report/**",
+    "motion/**/.hyperframes/**",
+    "motion/.portrait/**",
+    "motion/**/assets/**"
+  ],
+  "sortTailwindcss": {
+    "stylesheet": "./src/app/globals.css"
+  }
+}
